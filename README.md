@@ -27,4 +27,4 @@ The instructions assume a bash-like shell.
 
 1. Launch the run! Edit the paths to the workflow script and config file if you did not clone the repos to the locations assumed above. `python ~/repos/automate-metashape/python/metashape_workflow.py ~/repos/jetstream2-benchmark/configs/config-benchmark_01.yml`
 
-Data outputs, a processing log (including timings for each step), and a barebones copy of the config settings will be saved to the directory specified in the `output_path` item in the YAML config file, with the filenames of each prefixed with the text specified for `run_name` in the config file, plus a timestamp of when the run started.
+Data outputs, a processing log (including timings for each step), and a barebones copy of the config settings will be saved to the directory specified in the `output_path` item in the YAML config file, with the filenames of each prefixed with the text specified by `run_name` in the config file, plus a timestamp of when the run started.
