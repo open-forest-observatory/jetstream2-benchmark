@@ -1,0 +1,1 @@
+These are config files that specify a Metashape workflow to be run via the python/metashape_workflow.py script from the [automate-metashape](https://github.com/open-forest-observatory/automate-metashape) repo.
