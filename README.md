@@ -11,7 +11,7 @@ The instructions assume a bash-like shell.
 
 1. Clone this repo. These instructions will assume you cloned it to `~/repos/jetstream2-benchmark`. This is really just to get the one YAML config file that is stored in `configs/`. 
 
-1. Cone the [automate-metashape](https://github.com/open-forest-observatory/automate-metashape) repo. These instructions will assume you cloned it to `~/repos/automate-metashape`. This is the code to run Metashape (via the Python API) following the parameters specified in a YAML config file accessed via the previous step. 
+1. Clone the [automate-metashape](https://github.com/open-forest-observatory/automate-metashape) repo. These instructions will assume you cloned it to `~/repos/automate-metashape`. This is the code to run Metashape (via the Python API) following the parameters specified in a YAML config file accessed via the previous step. 
 
 1. Create a Conda environment with the right Python version and current PyYaml library: `conda create --name meta1.8.4 python=3.8 PyYaml`
 
