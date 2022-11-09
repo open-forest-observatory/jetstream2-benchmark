@@ -9,14 +9,14 @@ load_project: ""
 
 # The path to the directory of flight photos
 # If there are multiple photo folders, set path to the folder that contains all the photo folders
-photo_path: "~/Documents/jetstream2-benchmark-dataset/"
+photo_path: "/home/exouser/Documents/jetstream2-benchmark-dataset/"
 multispectral: False # Is this a multispectral photo set? If RGB, set to False.
 
 # Path for exports (e.g., points, DSM, orthomosaic) and processing log. Will be created if does not exist.
-output_path: "~/Documents/jetstream2-benchmark-outputs/"
+output_path: "/home/exouser/Documents/jetstream2-benchmark-outputs/"
 
 # Path to save Metashape project file (.psx). Will be created if does not exist
-project_path: "~/Documents/jetstream2-benchmark-project/"
+project_path: "/home/exouser/Documents/jetstream2-benchmark-project/"
 
 # The identifier for the run. Will be used in naming output files. Recommended to include a photoset name and processing parameter set name.
 run_name: "jetstream-benchmark_01-sub-184-down4-ngb50"
